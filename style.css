@@ -1,0 +1,98 @@
+
+header{
+    text-align: center;
+    color: gray;
+    background-color: whitesmoke;
+    padding: 15px;
+    margin: 15px 5% 15px 5%;
+}
+
+body {
+    background-color: gray;
+}
+
+nav{
+    text-align: center;
+    color: gray;
+    background-color: whitesmoke;
+    padding: 15px;
+    margin: 0px 5% 15px 5%;
+}
+
+section{
+    text-align: center;
+    color: gray;
+    background-color: whitesmoke;
+
+    padding: 15px 1% 1% 1%;
+
+    margin-left: 5%;
+    margin-right: 1%;
+
+    /*floating property*/
+    width: 42%;
+    height: 250px;
+    float: left;
+    box-sizing: border-box;
+}
+
+article{
+    background-color: gray;
+    color: whitesmoke;
+    padding: 15px 5px 5px 5px;
+}
+
+h1{
+    background-color:whitesmoke;
+    color: gray;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0px;
+}
+
+.p{
+    background-color:whitesmoke;
+    color: gray;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5px;
+}
+
+aside{
+    text-align: center;  
+    color: gray;
+    background-color: whitesmoke;
+
+    padding-top: 15px;
+
+    margin-right: 5%;
+    margin-left: 1%;
+    /*floating property*/
+    width: 44%;
+    float: right;
+    height: 250px;
+    box-sizing: border-box;
+}
+
+footer{
+    text-align: center;
+    color: gray;
+    background-color: whitesmoke;
+
+    margin: 15px 5% 0px 5%;
+}
+
+/*clear floating*/
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
